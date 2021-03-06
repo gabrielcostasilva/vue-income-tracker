@@ -1,13 +1,15 @@
 # Vue Income Tracker
 This project is based on [Tyler Potts' Youtube tutorial on Vue 3](https://www.youtube.com/watch?v=AjV7k7t78Ik). Notice that the master branch contains some improvements, such as using `reduce()` to sum totals. 
 
+This branch implements the `removeItem` method. Notice that the app architecture forces cascading events up till reach the app root (`App.vue`). This **is not** the best approach, but I did not want to change the initial architecture.
+
 ## Project Overview
 
 ### Main Screen
 
 <img src="./pics/MainPage.png" />
 
-This is a single page project. The main screen features a header and a total income conter on the top of the page, followed by the input values and the income list. Notice that the `x` before the income description does not really remove the income.
+This is a single page project. The main screen features a header and a total income conter on the top of the page, followed by the input values and the income list. 
 
 ## Views and Components Overview
 
